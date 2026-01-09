@@ -1,0 +1,164 @@
+    @font-face {
+  font-family: 'Norse Bold';
+  src: url('https://parbagga1.github.io/Norse-Font/Norsebold.woff2') format('woff2');
+}
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Inter, system-ui, sans-serif;
+            input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+}
+            
+        }
+
+        body{
+            background-color: #F9FAFB;
+        }
+
+        .container{
+            display: flex;
+            margin-left: auto;
+        }
+
+
+        .left{
+            width: 35%;
+            height: 100vh;
+            background:url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center;
+            background-size:cover;
+         }
+
+         .logo{
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            background-color: rgba(14, 12, 12, 0.61);
+            /* backdrop-filter: blur(50px); */
+            padding: 5px;
+         }
+
+         .logo img{
+                width: 100px;
+        }
+
+         .logo span{
+            font-family: "Norse Bold";
+            font-size: 100px;
+         }
+
+         label{
+            display: block;
+            font-size: 10px;
+            color: #505152;
+         }
+
+         .logo:hover{
+            cursor: pointer;
+         }
+
+         input{
+            border: 1px solid #E5E7EB;
+            height: 30px;
+            width: 200px;
+            border-radius: 5px;
+         }
+         .row{
+            display: flex;
+            width: 60%;
+            margin: 10px 30px;
+            justify-content: space-between;
+         }
+
+         .right{
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+         }
+
+         form{
+            width: 100%;
+         }
+
+
+         .inputs{
+            width: 100%;
+            background-color: #ffffff;
+            padding: 10px 0;
+            box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+       }
+
+   
+
+        .row>div{
+            margin-left: 20px;
+        }
+
+        .input_heading{
+            margin: 10px 35px;
+            color: #505152;
+            font-size: 19px;
+        }
+
+        
+
+        button{
+            background-color: #596D48;
+            margin: 15px 40px;
+            padding: 10px 50px;
+            border-radius: 10px;
+            border: none;
+            color: #FFFFFF;
+            font-weight: 500;
+            cursor: pointer;
+            transition: transform 0.5s ease;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        }
+
+
+        .row3 input:invalid{
+        border: 1px solid red;
+        }
+        .inputs input:focus{
+            border: 0.5px solid black;
+            outline:none;
+        }
+
+        button:hover{
+            scale: 1.02;
+        }
+
+        .top__description{
+             margin-top: 40px;
+            width: 100%;
+            padding: 20px 50px;
+            font-weight: 500;
+        }
+
+        .top__description p{
+           
+            padding: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .italic{
+            font-style: italic;
+        }
+
+        .login_link{
+            width: 90%;
+            margin-left: 10px;
+            font-weight: 400;
+        }
+
+        .login_link a{
+            text-decoration: none;
+            color: #596D48;
+            font-weight: 500;
+        }
